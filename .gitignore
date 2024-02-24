@@ -1,1 +1,11 @@
-MAI/metrics/__pycache__/*
+MAI/metrics/__pycache__
+MAI/storage/
+
+# Ignore everything to do with __pycache__
+__pycache__/
+
+# Ignore all folders at any level that contain __pycache__
+**/__pycache__/
+
+# Ignore all files ending in .pyc
+*.pyc
