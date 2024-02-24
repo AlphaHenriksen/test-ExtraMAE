@@ -1,9 +1,12 @@
 from models import *
+import sys
 
 
 def run_mae(args):
     # Data Loading
     ori_data = load_data(args)
+    print(sys.getsizeof(ori_data))
+    
     np.save(args.ori_data_dir, ori_data)  # save ori_data before normalization
     ori_data, min_val, max_val = min_max_scalar(ori_data)
 
