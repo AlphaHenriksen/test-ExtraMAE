@@ -1,4 +1,5 @@
 MAI/metrics/__pycache__
+metrics/__pycache__
 MAI/storage/
 
 # Ignore everything to do with __pycache__
